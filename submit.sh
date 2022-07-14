@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -H "Content-Type: application/json" -X POST -d '{"VAR_Username" : $1, "DEVENV_APP_8080_URL" : $2, "DEVENV_INSTANCE_ID" : $3}, "DEVENV_USER" : $4}'  https://securex-ao.us.security.cisco.com/webhooks/01YILP5MWHBU11duYcFmgFfMadMpVedV675?api_key=JLU2KC/ZZhveh96XimK2B/t4GEniiMJLZdP+REWst+DR3Mu5ZfYexhkxmD983j/0NvTSwuLzs7+gMqqs+FwFeVWIWN+onrKq+U72QwXjOiKmGveQIxlnaScmGzjIN/YHAUJKFIOo+z/dX6yzC1HVMJ+y2EeXeBY/hyMM0iMUILU=
