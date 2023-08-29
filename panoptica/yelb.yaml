@@ -6,7 +6,7 @@ metadata:
   labels:
     app: yelb
     istio-injection: enabled
-    ecureApplication-protected: full
+    SecureApplication-protected: full
 ---
 apiVersion: v1
 kind: Service
