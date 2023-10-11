@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "httpie-escher-auth"
+version = "0.2.0"
+description = ""
+authors = ["Julien Barbot <jubarbot@cisco.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+httpie = "^3.2.2"
+escherauth = {git = "https://github.com/klyr/escher-python.git", rev = "scn"}
+
+[tool.poetry.dev-dependencies]
+[tool.poetry.plugins."httpie.plugins.auth.v1"]
+httpie_escher_auth = "httpie_escher_auth:EscherAuthPlugin"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
